@@ -11,10 +11,5 @@ terraform {
       source = "hashicorp/random"
       version = ">= 3.0"
     }
-  }
-}
-
-# Block-2: Provider Block
-provider "google" {
-  project = "student100"
+  }  
 }
