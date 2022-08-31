@@ -12,11 +12,6 @@ terraform {
       version = ">= 3.0"
     }
   }
-  backend "gcs" {
-      bucket = "bucket-state-backup"
-      prefix = "default"
-  }
-  
 }
 
 # Block-2: Provider Block
